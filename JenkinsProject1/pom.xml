@@ -22,7 +22,7 @@
         <version>3.0.0-M5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>C:\Users\Vinod Khandekar\Desktop\Workspace\JenkinsProject\xmlfiles\testng.xml</suiteXmlFile>
+            <suiteXmlFile>C:\Users\Vinod Khandekar\git\JenkinsProject1\JenkinsProject1\xmlfiles\testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

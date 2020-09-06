@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="88215" started-at="2020-08-22T19:57:59 IST" finished-at="2020-08-22T19:59:28 IST">
+  <suite name="Default suite" duration-ms="41470" started-at="2020-09-06T23:29:26 IST" finished-at="2020-09-06T23:30:08 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="88215" started-at="2020-08-22T19:57:59 IST" finished-at="2020-08-22T19:59:28 IST">
+    <test name="Default test" duration-ms="41470" started-at="2020-09-06T23:29:26 IST" finished-at="2020-09-06T23:30:08 IST">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:tests.LoginTest@1dfe2924]" name="TestFireFox" duration-ms="53219" started-at="2020-08-22T19:58:00 IST" finished-at="2020-08-22T19:58:53 IST">
+        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:tests.LoginTest@72b6cbcc]" name="TestFireFox" duration-ms="41306" started-at="2020-09-06T23:29:26 IST" finished-at="2020-09-06T23:30:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFireFox -->
       </class> <!-- tests.LoginTest -->
-      <class name="tests.TestFacebook">
-        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:tests.TestFacebook@6ebc05a6]" name="TestFireFox" duration-ms="34594" started-at="2020-08-22T19:58:53 IST" finished-at="2020-08-22T19:59:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestFireFox -->
-      </class> <!-- tests.TestFacebook -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
