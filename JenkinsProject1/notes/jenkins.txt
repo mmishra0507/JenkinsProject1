@@ -1,0 +1,94 @@
+
+http://localhost:8888/login?from=%2F
+user-sys
+pwd-user123
+
+how to set path for jdk and maven in jenkins
+1.click on Manage Jenkins ....select Global Tool Configuration
+
+2.click add jdk 
+3.name jdk1.8 and uncheck install automatically
+4.JAVA_HOME   C:\Program Files\Java\jdk1.8.0_251
+
+To set variable for Maven
+1.click add jdk 
+2.name maven3.6 and uncheck install automatically
+2.MAVEN_HOME C:\Program Files\apache-maven-3.6.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+how to run maven project in jenkins
+1.open browser and paste
+http://localhost:8888
+2.login page opens then login in jenkins
+3.click create new job
+4.write job name as MavenProject and select free style then click ok
+5.Scroll down to ‘Build‘ option. Click on ‘Add Build Step‘ and choose the value ‘Invoke top-level Maven targets‘ from the drop down list.
+6.Maven version as maven3.6 and Type in Goals clean install
+7.Enter POM path (in my case the path is C:\Users\Vinod Khandekar\Desktop\Workspace\JenkinsProject\pom.xml)
+8.Click on ‘Apply‘ and ‘Save‘
+9.Let’s execute it now. Click on ‘Build Now‘ button. It will invoke pom.xml.
+10.You could see Build Status ‘Success’ on Console Output.
+
+
+
+
+
+
+
+
+
+
+https://www.softwaretestingmaterial.com/execute-maven-project-using-jenkins/
+https://experitest.com/selenium-testing/jenkins-pipeline-selenium/
+https://www.mitrais.com/news-updates/automate-your-unit-and-integration-testing-with-jenkins/
+https://smartbear.com/product/testcomplete/integrations/automated-testing-with-jenkins/
+https://itnext.io/unit-testing-a-jenkins-shared-library-9bfb6b599748
+https://www.ranorex.com/blog/integrating-ranorex-automation-in-jenkins-continuous-integration-process/
+https://www.blazemeter.com/blog/how-to-setup-and-run-selenium-tests-in-jenkins-using-maven-and-junit
